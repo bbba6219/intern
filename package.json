@@ -1,0 +1,17 @@
+{
+  "name": "intern-board",
+  "version": "0.1.0",
+  "private": true,
+  "description": "實習進度板：每個實習計劃一個入口，彙整投遞進度時間線與社群回報",
+  "type": "module",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test \"test/*.test.js\"",
+    "seed:demo": "node --disable-warning=ExperimentalWarning scripts/seed-demo.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
