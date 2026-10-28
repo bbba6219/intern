@@ -20,7 +20,7 @@ export function installPage(app) {
       const user = res.locals.user;
       const fl = res.locals.flash;
       const badge = newCountFor(user);
-      const full = title ? `${title}｜${config.siteName}` : `${config.siteName}｜每個實習計劃一個入口`;
+      const full = title ? `${title}｜${config.siteName}` : `${config.siteName}｜一起上岸`;
       if (status) res.status(status);
       res.type('html').send(String(html`<!doctype html>
 <html lang="zh-Hant">

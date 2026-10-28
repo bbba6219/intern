@@ -1,4 +1,4 @@
-# 申請進度板
+# 上岸 Ashore
 
 每個申請計劃（實習、管培、校園徵才、獎學金、交換、升學…）只有**一個入口**，把投遞後的測驗、面試、錄取通知彙整成清楚的**時間線**，並用**種子**鼓勵大家回報進度。
 
@@ -40,8 +40,8 @@ DATA_DIR=./data-demo npm start      # 帳號 示範同學1…24 / 密碼 demo-pa
 單一程序＋單一 SQLite 檔，把 `DATA_DIR` 指到持久化磁碟即可。
 
 ```bash
-docker build -t intern-board .
-docker run -p 3000:3000 -v intern-data:/data intern-board
+docker build -t ashore .
+docker run -p 3000:3000 -v intern-data:/data ashore
 ```
 
 | 環境變數 | 說明 |

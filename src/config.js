@@ -7,7 +7,7 @@ export const config = {
   secret: process.env.SESSION_SECRET || '',
   trustProxy: process.env.TRUST_PROXY === '1',
   secureCookies: process.env.COOKIE_SECURE === '1',
-  siteName: '申請進度板',
+  siteName: '上岸 Ashore',
 };
 
 // 種子規則：全部集中在這裡，/rules 頁面也讀這份，避免文件與實作不一致
